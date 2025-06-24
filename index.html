@@ -18,6 +18,10 @@
 <body>
     <header class="container">
         <div>
+            <img src="">
+        </div>
+
+        <div>
             <h1>CalcoPy MarketCalc</h1>
             <nav>
                 <ul>
@@ -31,17 +35,22 @@
     </header>
 
     <main>
-        <div class="Calculator">
-            <section class="percent">
-                <label><input type="radio"> 10%</label>
+        <section class="Calculator">
 
-            </section>
-            <section class="Math">
+            <div class="percent-choice">
+                <label><input type="radio" name="percent"> 10%</label>
+                <label><input type="radio" name="percent"> 20%</label>
+                <label><input type="radio" name="percent"> 35%</label>
+
+            </div>
+
+            <div class="input-labels">
                 <input type="number" placeholder="PrecoDe">
+                <input type="number" placeholder="PrecoPor">
                 <button>Calcular</button>
-            </section>
+            </div>
 
-        </div>
+        </section>
     </main>
 
 
