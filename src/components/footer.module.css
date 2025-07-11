@@ -1,0 +1,8 @@
+.ftContainer {
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    margin: 15px;
+    border-top: 2px solid white;
+    padding: 12px;
+}

@@ -1,15 +1,28 @@
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     background-color: #1C1B1B;
-    
+    border-radius: 25px;
+    height: 100px;
+    overflow: hidden;
+    padding: 0 50px;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
 }
 
 .logoImage {
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .about {
     color: #ffff;
+    font-size: 20px;
+    text-decoration: none;
+    
 }
